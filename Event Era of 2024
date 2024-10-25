@@ -1,0 +1,118 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/thanhdat4461/OrionMoblie/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "The Haunt", HidePremium = false, SaveConfig = true, IntroText = "The Haunt..." })
+local MainTab = Window:MakeTab({
+    Name = "Home",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+
+MainTab:AddButton({
+    Name = "Fly GUI",
+    Callback = function()
+        print("Button pressed")
+        loadstring(game:HttpGet('https://pastebin.com/raw/YSL3xKYU'))()
+    end   
+})
+
+MainTab:AddButton({
+    Name = "Teleport GUI",
+    Callback = function()
+        print("Button pressed")
+        loadstring(game:HttpGet(("https://pastebin.com/raw/YNVbeqPy")))()
+    end   
+})
+
+MainTab:AddButton({
+    Name = "Speed GUI",
+    Callback = function()
+        print("Button pressed")
+        loadstring(game:HttpGet(("https://pastebin.com/raw/QXugUKCE")))()
+    end   
+})
+
+MainTab:AddButton({
+    Name = "Infinite Jump",
+    Callback = function()
+        print("Button pressed")
+        loadstring(game:HttpGet(("https://pastebin.com/raw/2NBDvQ73")))()
+    end   
+})
+
+MainTab:AddButton({
+    Name = "Highlight ESP",
+    Callback = function()
+        print("Button pressed")
+        loadstring(game:HttpGet('https://pastebin.com/raw/7K1Jhmck', true))()
+    end   
+})
+
+MainTab:AddButton({
+    Name = "Keyboard for Mobile",
+    Callback = function()
+        print("Button pressed")
+        loadstring(game:HttpGet('https://pastebin.com/raw/cVZ9teYu', true))()
+    end   
+})
+
+MainTab:AddButton({
+    Name = "Anti-AFK",
+    Callback = function()
+        print("Button pressed")
+        loadstring(game:HttpGet('https://pastebin.com/raw/EkRTvJC4', true))()
+    end   
+})
+
+MainTab:AddButton({
+    Name = "Noclip",
+    Callback = function()
+        print("Button pressed")
+        loadstring(game:HttpGet('https://pastebin.com/raw/8fxrxv9X', true))()
+    end   
+})
+
+MainTab:AddButton({
+    Name = "Infiniteyield",
+    Callback = function()
+        print("Button pressed")
+        loadstring(game:HttpGet('https://pastebin.com/raw/M6uvCBjR', true))()
+    end   
+})
+
+local Main2Tab = Window:MakeTab({
+    Name = "The Haunt",
+    Icon = "rbxassetid://16496411242",
+    PremiumOnly = false
+})
+
+Main2Tab:AddButton({
+    Name = "[🎃Event] The Haunt",
+    Callback = function()
+        print("Button pressed")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraScript/Script/main/TheHaunt"))()
+    end   
+})
+
+Main2Tab:AddButton({
+    Name = "[🎃Event] Color Or Die",
+    Callback = function()
+        print("Button pressed")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraScript/Script/main/ColororDie"))()
+    end   
+})
+
+
+Main2Tab:AddButton({
+    Name = "[🎃Event] Keys 🗝️",
+    Callback = function()
+        print("Button pressed")
+        while wait(1) do game:GetService("ReplicatedStorage").Remotes.RobloxEventRE:FireServer("CollectItem") end
+    end   
+})
+
+Main2Tab:AddButton({
+    Name = "[🎃Event] Pull a Sword",
+    Callback = function()
+        print("Button pressed")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraScript/Script/main/PullaSword"))()
+    end   
+})
