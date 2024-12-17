@@ -1,5 +1,5 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "The Haunt", HidePremium = false, SaveConfig = true, ConfigFolder = "THEHAUNT"})
+local Window = OrionLib:MakeWindow({Name = "Winter Spotlight", HidePremium = false, SaveConfig = true, ConfigFolder = "THEHAUNT"})
 local MainTab = Window:MakeTab({
     Name = "Home",
     Icon = "rbxassetid://4483345998",
@@ -115,4 +115,10 @@ Main2Tab:AddButton({
         print("Button pressed")
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraScript/Script/main/PullaSword"))()
     end   
+})
+
+local Main3Tab = Window:MakeTab({
+    Name = "Winter Spotlight",
+    Icon = "rbxassetid://16496411242",
+    PremiumOnly = false
 })
