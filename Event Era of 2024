@@ -122,3 +122,27 @@ local Main3Tab = Window:MakeTab({
     Icon = "rbxassetid://16496411242",
     PremiumOnly = false
 })
+
+Main3Tab:AddButton({
+    Name = "[❄️ Winter Spotlight] Royale High",
+    Callback = function()
+        print("Button pressed")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraScript/Script/main/PullaSword"))()
+    end   
+})
+
+Main3Tab:AddButton({
+    Name = "[❄️ Winter Spotlight] Sonic Speed Simulator",
+    Callback = function()
+        print("Button pressed")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraScript/Script/main/PullaSword"))()
+    end   
+})
+
+Main3Tab:AddButton({
+    Name = "[❄️ Winter Spotlight] War Tycoon",
+    Callback = function()
+        print("Button pressed")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraScript/Script/main/PullaSword"))()
+    end   
+})
